@@ -71,7 +71,12 @@ namespace Calculadora_C_SHARP
             {
                 resultado = operando1 * operando2;
             }
+            else if (operacion == "%")
+            {
+                resultado = operando1 % operando2;
+            }
             label1.Text = Convert.ToString(resultado);
+
         }
     }
 }
